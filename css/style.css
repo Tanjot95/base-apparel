@@ -1,0 +1,186 @@
+body {
+
+    font-family: "josefin Sans", sans-serif;
+    background-image: url(../images/bg-pattern-desktop.svg);
+    background-size: cover;
+    font-size: 16px;
+    height: 100%;
+}
+
+
+    
+
+    #main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-fluid {
+        max-width: 1440px;
+        height: 100%;
+    }
+
+    .part1 {
+        padding-left: 200px
+    }
+
+    .text1 {
+
+        margin-top: 80px;
+        margin-bottom: 0px;
+        letter-spacing: 15px;
+        font-weight: 100;
+        color: hsl(0, 36%, 70%);
+        font-size: 5rem
+    }
+
+    .text2 {
+        font-weight: 600;
+        letter-spacing: 15px;
+        font-size: 5rem
+    }
+
+    .text3 {
+        text-align: left;
+        padding-right: 180px;
+        margin-bottom: 80px;
+        color: hsl(0, 36%, 70%);
+    
+
+    }
+
+    .btn {
+        background-image: linear-gradient(135deg, hsl(0, 64%, 91%), hsl(0, 62%, 83%));
+        position: absolute;
+        left: 283px;
+        border-radius: 25px;
+        width: 88px;
+        height: 47px;
+        box-shadow: 0 0 15px #c3c3c3;
+    }
+
+    
+
+
+    .email {
+        display: flex;
+        align-items: start;
+        width: 100%;
+        position: relative;
+    }
+
+    input.form-control {
+        width: 339px;
+        height: 47px;
+        border-radius: 25px;
+        padding-right: 53px;
+    }
+
+    form {
+        display: grid;
+        position: relative;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+
+
+
+@media (min-width: 375px) and (max-width:1440px) {
+    #left {
+        padding-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .logo {
+        padding: 40px 0px;
+        padding-left: 40px;
+    }
+
+    #main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container-fluid {
+        max-width: 1440px;
+        height: 100%;
+    }
+
+    .part1 {
+        padding-left: 200px
+    }
+
+    .text1 {
+        margin-top: 80px;
+        margin-bottom: 0px;
+        letter-spacing: 15px;
+        font-weight: 100;
+        color: hsl(0, 36%, 70%);
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .text2 {
+        font-weight:1000;
+        line-height: 50px;
+        letter-spacing: 15px;
+        font-size: 3rem;
+        text-align: center;
+        
+    }
+
+    .text3 {
+        font-size: 17px;
+        padding: 0px 15px;
+        margin-bottom: 50px;
+        color: hsl(0, 36%, 70%);
+        text-align: center;
+
+    }
+
+    .btn {
+        background-image: linear-gradient(135deg, hsl(0, 64%, 91%), hsl(0, 62%, 83%));
+        position: absolute;
+        left: 283px;
+        border-radius: 25px;
+        width: 88px;
+        height: 47px;
+        box-shadow: 0 0 15px #c3c3c3;
+    }
+
+    #imagem {
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .email {
+        display: flex;
+        align-items: start;
+        width: 100%;
+        position: relative;
+    }
+
+    input.form-control {
+        width: 339px;
+        height: 47px;
+        border-radius: 25px;
+        padding-right: 53px;
+    }
+
+    form {
+        display: grid;
+        position: relative;
+        width: 100%;
+    }
+
+    .box1 {
+        margin: 0px 7px;
+        margin-bottom: 40px;
+    }
+
+
+}
